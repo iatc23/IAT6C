@@ -1947,4 +1947,28 @@
         }
     </script>
  <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9cc87aa8d39ca458',t:'MTc3MDg2MTQ4Ny4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<!-- FIREBASE -->
+
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+
+<script>
+  // Konfigurasi Firebase kamu
+  const firebaseConfig = {
+    apiKey: "AIzaSyA2ZLI2lpZB6Z1TNrtbRBrIpF8QVfMI8s8",
+    authDomain: "tafsirhub-iatc-23.firebaseapp.com",
+    databaseURL: "https://tafsirhub-iatc-23-default-rtdb.firebaseio.com",
+    projectId: "tafsirhub-iatc-23",
+    storageBucket: "tafsirhub-iatc-23.firebasestorage.app",
+    messagingSenderId: "226092374419",
+    appId: "1:226092374419:web:bcc3023388de58589a3066",
+    measurementId: "G-7N3X4SQWJ6"
+  };
+
+  // Aktifkan Firebase
+  firebase.initializeApp(firebaseConfig);
+
+  // Database
+  const db = firebase.database();
+</script>
 </html>
